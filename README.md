@@ -1,5 +1,6 @@
 # install-latest-protobuf-ubuntu
 
+```
 sudo apt-get install autoconf automake libtool curl make g++ unzip -y
 git clone https://github.com/google/protobuf.git
 cd protobuf
@@ -10,3 +11,4 @@ make
 make check
 sudo make install
 sudo ldconfig
+```
